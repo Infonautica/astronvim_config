@@ -33,8 +33,11 @@ return {
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<S-Up>"] = { "<Nop>" },
-    ["<S-Down>"] = { "<Nop>" }
-
+    ["<S-Down>"] = { "<Nop>" },
+    ["<C-e>"] = { "$" }
+  },
+  v = {
+    ["<C-e>"] = { "$" }
   },
   t = {
     -- setting a mapping to false will disable it
