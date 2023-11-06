@@ -72,6 +72,7 @@ return {
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
     -- Set up custom filetypes
+    -- vim.lsp.set_log_level("debug")
     -- vim.filetype.add {
     --   extension = {
     --     foo = "fooscript",
