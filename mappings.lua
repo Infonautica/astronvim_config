@@ -34,7 +34,8 @@ return {
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
     ["<S-Up>"] = { "<Nop>" },
     ["<S-Down>"] = { "<Nop>" },
-    ["<C-e>"] = { "$" }
+    ["<C-e>"] = { "$" },
+    ["<Tab>"] = { ":wincmd w<CR>", desc = "Switch to next window" }
   },
   v = {
     ["<C-e>"] = { "$" }
